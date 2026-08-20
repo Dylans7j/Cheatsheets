@@ -31,13 +31,13 @@ Where a technique traces back to a specific machine, it links to the [full walkt
 | [`linux-privesc.md`](./linux-privesc.md) | SUID/SGID, cron, world-writable files, LD_PRELOAD, LXD, NFS, kernel exploit triage | ✅ |
 | [`windows-privesc.md`](./windows-privesc.md) | AppLocker, service ACLs, unquoted paths, credential theft, LSASS dumping, driver abuse, AlwaysInstallElevated | ✅ |
 | [`pivoting-tunneling.md`](./pivoting-tunneling.md) | SSH tunnels, SOCKS proxies, Chisel, sshuttle, dnscat2, Meterpreter portfwd, ptunnel-ng | ✅ |
-| `password-attacks.md` | Hash cracking, spraying methodology, wordlist strategy | 🔜 |
-| `web-attacks.md` | Injection points, common web exploitation patterns | 🔜 |
-| `command-injection.md` | OS command injection payloads and bypass techniques | 🔜 |
+| [`password-attacks.md`](./password-attacks.md) | Wordlist generation, remote/local password attacks, LSASS/SAM/NTDS extraction, hash cracking | ✅ |
+| [`attacking-common-services.md`](./attacking-common-services.md) | FTP, SMB, MySQL/MSSQL, RDP, DNS, email service attacks | ✅ |
+| [`web-attacks.md`](./web-attacks.md) | HTTP verb tampering, IDOR, XXE | ✅ |
+| [`command-injection.md`](./command-injection.md) | Injection operators, filter bypass, blacklist evasion (Linux + Windows) | ✅ |
 | `xss.md` | Cross-site scripting payloads and contexts | 🔜 |
 | `sqlmap.md` | SQLMap flags and usage patterns | 🔜 |
 | `information-gathering-web.md` | Web recon methodology | 🔜 |
-| `attacking-common-services.md` | Service-specific enumeration/exploitation (SMB, FTP, etc.) | 🔜 |
 | `attacking-common-applications.md` | CMS/application-specific attack patterns | 🔜 |
 | `server-side-attacks.md` | SSRF, deserialization, server-side request patterns | 🔜 |
 | `stack-buffer-overflow.md` | Classic stack-based BOF methodology | 🔜 |
