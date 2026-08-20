@@ -35,15 +35,23 @@ Where a technique traces back to a specific machine, it links to the [full walkt
 | [`attacking-common-services.md`](./attacking-common-services.md) | FTP, SMB, MySQL/MSSQL, RDP, DNS, email service attacks | ✅ |
 | [`web-attacks.md`](./web-attacks.md) | HTTP verb tampering, IDOR, XXE | ✅ |
 | [`command-injection.md`](./command-injection.md) | Injection operators, filter bypass, blacklist evasion (Linux + Windows) | ✅ |
-| `xss.md` | Cross-site scripting payloads and contexts | 🔜 |
-| `sqlmap.md` | SQLMap flags and usage patterns | 🔜 |
+| [`xss.md`](./xss.md) | XSS payloads, DOM manipulation, cookie exfiltration, credential phishing via injection | ✅ |
+| [`sqlmap.md`](./sqlmap.md) | Enumeration, tamper scripts, CSRF bypass, file read/write, OS shell | ✅ |
+| [`ffuf.md`](./ffuf.md) | Directory/vhost/parameter/value fuzzing, wordlist reference | ✅ |
 | `information-gathering-web.md` | Web recon methodology | 🔜 |
 | `attacking-common-applications.md` | CMS/application-specific attack patterns | 🔜 |
 | `server-side-attacks.md` | SSRF, deserialization, server-side request patterns | 🔜 |
 | `stack-buffer-overflow.md` | Classic stack-based BOF methodology | 🔜 |
 | `windows-evasion.md` | AV/EDR evasion techniques | 🔜 |
-| `ffuf.md` | Fuzzing flags and patterns | 🔜 |
 | `wifi-cracking.md` | WPA/WPA2 attack techniques | 🔜 |
+
+### Forensics
+
+| File | Covers | Status |
+|---|---|:---:|
+| [`linux-forensics-artifacts.md`](./linux-forensics-artifacts.md) | Full FHS artifact map — where evidence lives across `/etc`, `/home`, `/var`, and more | ✅ |
+
+
 
 *(Files marked 🔜 exist in source notes and will be added incrementally.)*
 
