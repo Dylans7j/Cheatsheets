@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+.idea/
+.vscode/
+*.cap
+*.pcap
+*.pcapng
+*.hc22000
+*.22000
+hashcat.potfile
+*.pot
+_incoming/
