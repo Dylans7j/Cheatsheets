@@ -156,3 +156,9 @@ See [`MIGRATION.md`](MIGRATION.md) for the full map.
 MIT — see [LICENSE](LICENSE).
 
 **Authorized use only.**
+
+## Current defensive-lab reference
+
+The [SOC-Lab project](https://github.com/Dylans7j/SOC-Lab) documents verified Windows 11 endpoint telemetry in Splunk: Security, System, PowerShell Operational and Sysmon Operational. The Sysmon forwarder subscription failure was resolved by correcting service-account Event Log Readers membership. Use those reproducible collection notes as the starting point for event-based field guides and detection research.
+
+**Public networking convention:** use the literal placeholder `192.169.70.x` when a diagram needs an example lab address. It is intentionally a redaction marker, **not** the real network or a valid private-address recommendation. Never commit actual lab addresses, NAT leases, credentials or active CTF target details.
