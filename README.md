@@ -53,6 +53,7 @@ CHEATSHEETS/
 
 | Sheet | File |
 |---|---|
+| Nmap workflow | [nmap.md](pentesting/network-services/nmap.md) |
 | Attacking common services | [`attacking-common-services.md`](pentesting/network-services/attacking-common-services.md) |
 | Attacking common applications | [`attacking-common-applications.md`](pentesting/network-services/attacking-common-applications.md) |
 | Pivoting & tunneling | [`pivoting-tunneling.md`](pentesting/network-services/pivoting-tunneling.md) |
@@ -68,6 +69,7 @@ CHEATSHEETS/
 
 | Sheet | File |
 |---|---|
+| Hashcat workflow | [hashcat.md](pentesting/password-attacks/hashcat.md) |
 | Password attacks | [`password-attacks.md`](pentesting/password-attacks/password-attacks.md) |
 
 ### Pentesting — Wireless
@@ -96,9 +98,13 @@ CHEATSHEETS/
 
 | Sheet | File |
 |---|---|
-| *(expand here)* | [`osint/`](osint/) |
+| Subfinder | [subfinder.md](osint/subfinder.md) |
 
 ---
+
+## Tool reference standard
+
+Start with the task, then show copyable commands, expected results, common mistakes and official sources. Record the review date and distinguish documentation review from lab testing. The Nmap, Hashcat and Subfinder sheets use this format; the remaining sheets have not been fully audited.
 
 ## Quick search
 
